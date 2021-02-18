@@ -28,7 +28,7 @@ I've saved dtThe results of the CG computation for l=1 to clebsch_gordan_l1.npy
 """
 
 import numpy as np
-from pinchon_hoggan import *
+from lie_learn.representations.SO3.pinchon_hoggan import *
 
 
 def compute_CG_3D(m1, n1, m2, n2, N=1000):
